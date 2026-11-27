@@ -39,7 +39,7 @@ class Transfer{
         await this.toAccountButton.click({force:true})
         await this.toAccountButton.click()
         await this.toAccountOption.selectOption(toAccount)
-        await this.amountInput.click({force:true})
+        await this.amountInput.click({force:true}) 
         await this.amountInput.fill(amount)
         await this.reviewTransfer.click()
         await this.confirmPay.click()
