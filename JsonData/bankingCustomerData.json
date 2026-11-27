@@ -1,0 +1,31 @@
+{
+    "testcase1":{
+        "url":"http://185.19.219.65/training-domains/",
+        "userName":"priya",
+        "password":"priya123",
+        "transferDetails":{
+            "transferType":{
+                "my":"Between my accounts",
+                "beneficiary":"To a beneficiary"
+            },
+            "from":"acc-3",
+            "to":"Everyday savings",
+            "amount":"50000"
+        }
+    },
+
+    "testcase2":{
+        "url":"http://185.19.219.65/training-domains/",
+        "userName":"priya",
+        "password":"priya123",
+        "transferDetails":{
+            "transferType":{
+                "my":"Between my accounts",
+                "beneficiary":"To a beneficiary"
+            },
+            "from":"acc-1",
+            "to":"Salary account",
+            "amount":"50000"
+        }
+    }
+}
